@@ -1,0 +1,405 @@
+body {
+    background-color: rgb(254, 253, 253)
+}
+
+body {
+    flex-direction: column;
+    font-family: Google Sans, sans-serif;
+    /* font-size: 25px; */
+    width: 100%;
+    height: 100vh;
+    max-width: fit-content;
+    height: -webkit-fill-available;
+    margin: 0 auto;
+    padding: 0 auto;
+    font-style: bold;
+    border-style: outset;
+    border-color: rgb(251, 224, 224);
+    zoom: 0%;
+}
+
+html {
+    height: -webkit-fill-availabl;
+}
+
+main {
+    flex: 1;
+}
+
+nav ol {
+    text-align: right;
+    background-color: rgb(70, 61, 61);
+    box-shadow: rgb(247, 7, 7);
+    border-width: 4px;
+    border-radius: 5px;
+    border-top-style: outset;
+    border-color: rgb(251, 6, 6);
+    height: fit-content;
+    font-size: 20px;
+}
+
+nav ol li {
+    display: inline-block;
+    padding: 0px;
+    font-size: 20px;
+    margin: 0 auto;
+    border-top: red;
+    border-width: 14px;
+    height: fit-content;
+}
+
+nav ol li a {
+    background-color: rgb(10, 10, 10);
+    font-style: normal;
+    color: #fff;
+    font-size: 15px;
+    height: fit-content;
+}
+
+nav ul {
+    background-color: rgb(88, 86, 86);
+    padding-top: 15px;
+    padding-bottom: 10px;
+    width: 100%;
+    border-style: outset;
+    border-color: rgb(251, 10, 6);
+    box-sizing: border-box;
+    height: fit-content;
+    margin-right: 20px;
+    padding-right: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 3px;
+    height: fit-content;
+}
+
+nav ul li a {
+    text-align: center;
+    background-color: #fff;
+    color: rgb(8, 0, 0);
+    font-size: 15px;
+    padding: 3px;
+    height: fit-content;
+}
+
+.logo2 {
+    font-size: 25px;
+    animation: alternate-reverse;
+    background-color: rgba(227, 244, 244, 0.94);
+    padding: 10px;
+    border: red;
+    border-width: 3px;
+    border-top-style: outset;
+    border-bottom-style: solid;
+}
+
+.slogo {
+    font-size: 10px;
+}
+
+main h1 {
+    display: inline-block;
+    color: aqua;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    border-radius: 5px;
+    text-decoration: none;
+    height: fit-content;
+    text-align: center;
+}
+
+main h1 p {
+    color: red;
+    height: fit-content;
+}
+
+h1 img {
+    border: rgb(243, 8, 8);
+    display: inline-block;
+    width: 500px;
+    height: fit-content;
+}
+
+p {
+    padding-bottom: 5px;
+    display: inline-block;
+    background-color: rgb(251, 255, 255);
+    margin: 4px 4px 4px 4px;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    font-style: italic;
+    color: rgb(10, 4, 4);
+    text-align: left;
+}
+
+ol li {
+    margin: 0px;
+    padding: 0px;
+}
+
+ol li {
+    font-style: italic;
+    list-style: none;
+    text-align: left;
+    word-spacing: 2px;
+    display: flexbox;
+    border-style: hidden;
+    border-radius: 0px;
+    height: fit-content;
+}
+
+nav img {
+    margin-left: 0 0 0 0;
+    font-style: italic;
+    list-style: none;
+    display: inline-block;
+    padding: 0px 0px 0px 0px;
+    width: 100%;
+}
+
+.page {
+    background-color: aqua;
+    font-size: larger;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 5px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: inherit;
+    border-style: outset;
+    scrollbar-shadow-color: aquaS;
+}
+
+li a {
+    background-color: rgb(215, 41, 41);
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0px;
+    padding: 5px;
+    display: inline-table;
+    text-decoration: none;
+    border-radius: 5px;
+    color: #fff;
+    text-align: center;
+}
+
+li p {
+    text-align: center;
+    font-weight: 200;
+}
+
+.lucky {
+    color: rgb(255, 255, 0);
+    border-radius: 3px;
+    font-size: smallsss;
+    background-color: rgb(10, 10, 10);
+    display: inline-block;
+    padding: 5px 10px 5px 10px;
+    margin: 5px 3px 5px 3px;
+    font-size: 10px;
+    text-align: center;
+}
+
+img {
+    width: 2px;
+    text-align: center;
+}
+
+.next a {
+    background-color: rgb(10, 10, 9);
+    margin: 5px;
+    padding: 7px;
+    text-decoration: none;
+    border-radius: 7px;
+    color: aqua;
+    text-align: center;
+    margin-top: 5px;
+    /* margin: 10px; */
+}
+
+.next {
+    text-align: center;
+    font-size: 20px;
+    margin: 10px;
+}
+
+.page {
+    background-color: rgb(4, 206, 251);
+    border-radius: 10px;
+    text-align: center;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.start table th {
+    background-color: rgb(248, 252, 248);
+    display: inline block;
+    list-style: none;
+    text-decoration: none;
+    text-align: center;
+    text-shadow: #fff;
+    color: rgb(255, 60, 0);
+    margin: 10px;
+    padding: 5px;
+    scrollbar-highlight-color: aqua;
+}
+
+h3 {
+    background-color: antiquewhite;
+    text-shadow: #fff;
+    margin: 3px;
+    padding: 2px;
+    text-align: center;
+}
+
+.space img {
+    font-size: 2px;
+    text-decoration: none;
+    width: 0PX;
+    text-align: center;
+}
+
+h1 {
+    background-color: red;
+}
+
+.list th a {
+    background-color: rgb(77, 174, 165);
+    font-size: large;
+}
+
+.next th a {
+    background-color: rgb(240, 24, 24);
+    border-radius: 5px;
+    border-width: 50px;
+    display: inline;
+}
+
+.about {
+    font-size: 25px;
+    border-radius: 2px;
+    border-color: #fff;
+    color: rgb(16, 16, 9);
+    background-color: rgb(243, 75, 86);
+    font-style: oblique;
+    font-weight: bold;
+    margin: 10px 10px 10px 10px;
+    padding: 7px 5px 10px 7px;
+    letter-spacing: 1px;
+}
+
+h2 {
+    padding-top: 30px;
+    word-spacing: 7px;
+    margin-top: 30px;
+}
+
+.logo a {
+    width: 100%;
+    font-size: 50px;
+    text-align: left;
+}
+
+.nav2 a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+h4 {
+    display: inline-block;
+}
+
+img {
+    text-align: center;
+}
+
+.text {
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    /* margin: 15px; */
+    border-style: outset;
+    list-style: none;
+    border-color: aqua;
+    margin-right: 20px;
+    margin-left: 20 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.text123 {
+    text-align: center;
+    font-size: 20px;
+    border-style: outset;
+    border-color: aqua;
+    margin-right: 20px;
+    margin-left: 35px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.text123 a {
+    text-decoration: none;
+}
+
+.text a {
+    text-decoration: none;
+    margin: 3px;
+    padding: 3px;
+}
+
+.us {
+    background-color: #ff6600;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.us form {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 40px;
+    border: 3px solid#883300;
+    width: 33%;
+    border-radius: 0 50%;
+    color: #883300;
+    height: fit-content;
+}
+
+.us form input {
+    margin: 5px;
+    height: 18pt;
+    font-size: 1.1rem;
+    padding: 5px;
+    border: 1px solid #883300;
+}
+
+.us form textarea {
+    margin: 5px;
+    font-size: 1.1rem;
+    padding: 5px;
+    border: 1px solid #883300;
+}
+
+.us form button {
+    /* align-items: left; */
+    display: inline-block;
+    margin: 5px;
+    background-color: rgb(252, 252, 252);
+    font-style: oblique;
+    text-align: left;
+}
+
+h6 {
+    text-align: center;
+    color: red;
+}
+
+h6 p {
+    color: red;
+    animation-duration: 1s;
+    animation-direction: alternate-reverse;
+}
