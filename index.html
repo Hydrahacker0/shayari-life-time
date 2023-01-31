@@ -9,7 +9,17 @@
 <link rel="stylesheet" href="styles.scss">
 <link rel="stylesheet" href="stylesheet.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
-
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@algolia/algoliasearch-netlify-frontend@1/dist/algoliasearchNetlify.css" />
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@algolia/algoliasearch-netlify-frontend@1/dist/algoliasearchNetlify.js"></script>
+<script type="text/javascript">
+  algoliasearchNetlify({
+    appId: 'IDIC6BO9JV',
+    apiKey: '<YOUR_ALGOLIA_SEARCH_API_KEY>',
+    siteId: '82fb8cfb-b406-47c3-81a2-934974371ef2',
+    branch: 'main',
+    selector: 'div#search',
+  });
+</script>
 
 </head>
 
